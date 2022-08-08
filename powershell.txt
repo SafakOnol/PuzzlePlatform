@@ -1,4 +1,36 @@
+load game (specified map in game editor)
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" -game -log
+
+load specific map - ThirdPersonMap:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -game -log
+
+load specific map - Lobby:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/PuzzlePlatforms/Lobby -game -log
+
+join specific map - Lobby:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" 192.168.0.94 -game -log
+
+
+
+
+
+
+archive:
 & "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" -game -log
 
 load specific map:
 & "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -game -log
+
+
+
+launch a server: swap "-game" with "-server"
+
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -server -log
+
+load client with ip: 
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" 192.168.0.94 -game -log
+
+
+launch a client: put ip adress instead of map
+
+IP: 192.168.0.94

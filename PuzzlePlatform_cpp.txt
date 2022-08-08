@@ -1,0 +1,12 @@
+game
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" -game -log
+
+load specific map - ThirdPersonMap:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -game -log
+
+load specific map - Lobby:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" /Game/PuzzlePlatforms/Lobby -game -log
+
+join specific map - Lobby:
+& "C:\Program Files\Epic Games\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "C:\Users\onols\Documents\GitHub\PuzzlePlatform\PuzzlePlatform.uproject" 192.168.0.94 -game -log
+
